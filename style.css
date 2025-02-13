@@ -236,7 +236,7 @@ span:hover {
 }
 
 
-/****************************** container- ******************************/
+/****************************** container- 4******************************/
 
 .container-4 {
     height: 425px;
@@ -283,4 +283,45 @@ span:hover {
     font-size: 16px;
     margin: 30px 0px 15px;
     line-height: 30px;
+}
+
+/****************************** container-5 ******************************/
+
+.container-5 {
+    height: 296px;
+    margin: 0rem 6rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-5 h2 {
+    font-size: 32px;
+    color: #424242;
+    margin: 0px 0px 20px;
+
+}
+
+.container-5 p {
+    font-size: 16px;
+    margin: 16px 0px 15px;
+    color: #666666;
+}
+
+.container-5 button {
+    height: 2.79rem;
+    width: 12.735rem;
+    background-color: #387ED1;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.container-5 button:hover {
+    background-color: black;
 }
