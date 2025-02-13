@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    height: 17px;
+    width: 129px;
+    background-image: url("images/logo.svg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 4.23rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 10rem;
+    margin-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.left-content a {
+    padding-left: 40px;
+    cursor: pointer;
+    font-size: 14.4px;
+}
+
+.left-content i {
+    padding-left: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/****************************** container-1 ******************************/
+
+.container-1 {
+    height: 36.3rem;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    margin: 2rem 2rem;
+    padding: 0px 20px 120px;
+}
+
+
+.hero-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+
+
+.img {
+    height: 20.5rem;
+    width: 48.7rem;
+   background-image: url("images/hero-img.png");
+   background-size: cover;
+   margin-bottom: 3.75rem;
+}
+
+.hero-img h1 {
+    font-size: 2.75rem;
+    color: #424242;
+}
+
+.hero-img p {
+    font-size: 1.25rem;
+    color: #666666;
+    margin: 10px 0px 15px;
+}
+
+.hero-img button {
+    height: 2.79rem;
+    width: 12.735rem;
+    background-color: #387ED1;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/****************************** container-2 ******************************/
+
+
+.container-2 {
+    height: 50rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    margin: 2rem 4rem 0rem 4rem;
+    padding: 0px 30px;
+    gap: 7%;
+}
+
+.img-container-2 {
+    height: 38.2rem;
+    width: 39rem;
+    background-image: url("images/containe-2-img.png");
+    background-size: cover;
+}
+
+.content h1 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #424242;
+}
+
+.content h2 {
+    font-size: 20px;
+    color: #424242;
+}
+
+.content p {
+    font-size: 16px;
+    margin: 5px 0px 32px;
+    line-height: 30px;
+    font-weight: 200;
+    color: #666666;
+}
+
+.end-img {
+    height: 40px;
+    width: 710px;
+    background-image: url("images/press-logos.png");
+    background-size: cover;
+}
+
+.content-right {
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #387ED1;
+    cursor: pointer;
+}
+
+.contant-left {
+    height: 677px;
+    width: 432px;
+}
+
+span {
+    color:#387ED1;
+    cursor: pointer;
+}
+
+span:hover {
+    color: black;
+}
+
+/****************************** press-logo ******************************/
+
+.press-logo {
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin: 0rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.press-img {
+    height: 40px;
+    width: 710px;
+    background-image: url("images/press-logos.png");
+    background-size: cover;
+}
