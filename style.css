@@ -22,7 +22,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 0rem 10rem;
-    margin-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .left-content a {
@@ -295,6 +294,7 @@ span:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 5rem;
 }
 
 .container-5 h2 {
@@ -324,4 +324,74 @@ span:hover {
 
 .container-5 button:hover {
     background-color: black;
+}
+
+
+/****************************** container-5 ******************************/
+
+.footer {
+    height: 50.4rem;
+    background-color: #FBFBFB;
+}
+
+.foot-panel {
+    font-size: 10px;
+}
+
+.footer ul a {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer ul h2 {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-icon i {
+    font-size: 25px;
+    margin-left: 10px;
+    padding-left: 3px;
+}
+
+
+.foot-panel1 {
+    padding-top: 80px;
+    color: #666666;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icon {
+    margin-top: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+    
+}
+
+
+ul a {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666666;
+}
+
+ul h2 {
+    font-size: 18px;
+    margin: 0px 0px 10px;
+}
+
+footer a {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.copyright {
+    color: #666666;
+    line-height: 25px;
 }
