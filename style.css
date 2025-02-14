@@ -50,10 +50,8 @@
     align-items: center;
     margin-right: 10rem;
     box-shadow:
-        5px 5px 10px rgba(0, 0, 0, 0.3),
-        /* Right & Bottom */
-        -5px 5px 10px rgba(0, 0, 0, 0.3);
-    /*Left & Bottom */
+    5px 5px 10px rgba(0, 0, 0, 0.3),     /* Right & Bottom */
+    -5px 5px 10px rgba(0, 0, 0, 0.3);    /*Left & Bottom */
 }
 
 .menu-text {
@@ -120,10 +118,8 @@
     display: flex;
     margin-right: 10rem;
     box-shadow:
-        5px 5px 10px rgba(0, 0, 0, 0.3),
-        /* Right & Bottom */
-        -5px 5px 10px rgba(0, 0, 0, 0.3);
-    /*Left & Bottom */
+    5px 5px 10px rgba(0, 0, 0, 0.3),        /* Right & Bottom */
+    -5px 5px 10px rgba(0, 0, 0, 0.3);       /*Left & Bottom */
 }
 
 .menu-footer {
@@ -136,6 +132,7 @@
 .menu-footer h2 {
     color: #424242;
     font-size: 16px;
+    margin: 0px;
 }
 
 .menu-footer a {
@@ -253,7 +250,6 @@ hr {
     height: 50rem;
     background-color: rgb(255, 255, 255);
     display: flex;
-    /* flex-wrap: wrap; */
     align-items: center;
     margin: 2rem 6rem 0rem 6rem;
     padding: 0px 30px;
