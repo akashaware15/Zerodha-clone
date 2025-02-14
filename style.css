@@ -541,3 +541,12 @@ footer a {
     color: #666666;
     line-height: 25px;
 }
+
+
+/****************************** Signup page ******************************/
+
+.signup-page {
+    height: 20rem;
+    width: 100%;
+    background-color: brown;
+}
