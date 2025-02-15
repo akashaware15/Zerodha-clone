@@ -15,7 +15,7 @@
 
 
 #menu-icon {
-    user-select: none; 
+    user-select: none;
 }
 
 
@@ -61,8 +61,8 @@
     align-items: center;
     margin-right: 10rem;
     box-shadow:
-    5px 5px 10px rgba(0, 0, 0, 0.3),
-    -5px 5px 10px rgba(0, 0, 0, 0.3);
+        5px 5px 10px rgba(0, 0, 0, 0.3),
+        -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .menu-text {
@@ -129,8 +129,8 @@
     display: flex;
     margin-right: 10rem;
     box-shadow:
-    5px 5px 10px rgba(0, 0, 0, 0.3),
-    -5px 5px 10px rgba(0, 0, 0, 0.3);
+        5px 5px 10px rgba(0, 0, 0, 0.3),
+        -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .menu-footer {
@@ -335,8 +335,8 @@ hr {
 }
 
 .contact-section .end-para {
-font-size: 14px;
-margin-top: 48px;
+    font-size: 14px;
+    margin-top: 48px;
 }
 
 .contact-section span {
@@ -349,7 +349,7 @@ margin-top: 48px;
 /*********************************** container-3 *******************************/
 
 .container-3 {
-    height: 524.78px;
+    height: auto;
     background-color: #ffffff;
     margin: 0px 122px;
     padding: 0px 40px;
@@ -357,6 +357,7 @@ margin-top: 48px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 128px;
 }
 
 .container-3 h2 {
@@ -376,32 +377,40 @@ margin-top: 48px;
     font-size: 2rem;
     margin-bottom: 32px;
 }
+
 /********** card-images ***********/
 
 .card1-img {
     height: 84.5px;
     width: 112px;
     background-image: url("Signup-images/stock.svg");
+    background-size: cover;
 }
 
 .card2-img {
     height: 66.66px;
     width: 112px;
     background-image: url("Signup-images/mutual-funds.svg");
+    background-size: cover;
 }
 
 .card3-img {
     height: 74.8px;
     width: 112px;
     background-image: url("Signup-images/ipo.svg");
+    background-size: cover;
 }
 
 .card4-img {
     height: 111.99px;
-    width: 112px;
+    width: 120px;
     background-image: url("Signup-images/option.svg");
 }
 
+
+.card-text {
+    margin-left: 30px;
+}
 
 /********* Grid Layout *******/
 .grid {
@@ -412,27 +421,152 @@ margin-top: 48px;
 }
 
 .card {
-    background: rgba(0, 0, 255, 0.1);
-    border: 2px solid purple;
+    background: rgb(255, 255, 255);
     padding: 40px 20px;
     border-radius: 12px;
     text-align: left;
     transition: transform 0.3s;
     display: flex;
+    cursor: pointer;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    background: rgba(0, 0, 255, 0.2);
+    background: rgba(199, 199, 204, 0.2);
 }
 
 .card h3 {
-    font-size: 1.5rem;
+    font-size: 24px;
     margin-bottom: 10px;
-    color: #333;
+    color: #424242;
 }
 
 .card p {
-    font-size: 1rem;
-    color: #555;
+    font-size: 18px;
+    color: #878787;
+}
+
+#container3-btn {
+    height: 48px;
+    width: 246px;
+    font-size: 18px;
+    background-color: #397DD0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#container3-btn:hover {
+    background-color: #2563eb;
+}
+
+
+/*********************************** container-4 *******************************/
+
+.container-4 {
+    height: 460px;
+    background-color: #FBFBFB;
+    margin: 0px 122px;
+}
+
+.container-4 h2 {
+    font-size: 30px;
+    color: #424242;
+    padding: 56px 0px;
+    text-align: center;
+
+}
+
+.container4-img {
+    height: 202px;
+    width: 365px;
+    background-image: url("Signup-images/container4-landing.svg");
+    background-size: cover;
+}
+
+.container4-landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    font-size: 20px;
+    color: #424242;
+    padding: 40px 0px 64px;
+}
+
+
+#container4-para1 {
+    padding: 0px 0px 16px;
+}
+
+
+#container4-para2 {
+    padding: 20px 0px 16px;
+}
+
+#container4-para3 {
+    padding: 20px 0px 16px;
+}
+
+
+
+.circle {
+    width: 60px;
+    height: 80px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #424242;
+    background-color: #fff;
+    padding: 4px;
+    margin-right: 20px;
+}
+
+/*********************************** container-4 *******************************/
+
+.container-5 {
+    height: 824px;
+    background-color: #ffffff;
+    margin: 0px 122px;
+    padding: 144px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+
+.container5-landing {
+    height: 390px;
+    width: 560px;
+}
+
+.container5-img {
+    height: 272px;
+    width: 448px;
+    background-image: url("Signup-images/container5-landing.svg");
+    background-size: cover;
+    padding: 0px 20px;
+}
+
+.container5-landing p {
+    font-size: 32px;
+    color: #424242;
+    padding-top: 90px;
+}
+
+.container5-text h1 {
+    font-size: 20px;
+    color: #424242;
+    padding: 0px 0px 8px;
+}
+
+.container5-text p {
+    font-size: 16px;
+    color: #878787;
+    line-height: 25px
+}
+
+.text5 {
+    padding: 16px 0px;
 }
