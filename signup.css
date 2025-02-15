@@ -13,10 +13,6 @@
     cursor: pointer;
 }
 
-
-
-
-
 /*************************************************** Menu icon ***************************************************/
 
 .about-menu {
@@ -36,6 +32,25 @@
 
 #menu-icon {
     user-select: none;
+}
+#signup-page {
+    text-decoration: none;
+}
+
+#about {
+    text-decoration: none;
+}
+
+#product {
+    text-decoration: none;
+}
+
+#pricing {
+    text-decoration: none;
+}
+
+#Support {
+    text-decoration: none;
 }
 
 .show {

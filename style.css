@@ -17,6 +17,22 @@
     text-decoration: none;
 }
 
+#about {
+    text-decoration: none;
+}
+
+#product {
+    text-decoration: none;
+}
+
+#pricing {
+    text-decoration: none;
+}
+
+#Support {
+    text-decoration: none;
+}
+
 #menu-icon {
     user-select: none; 
 }
@@ -41,6 +57,8 @@
 .show {
     display: block;
 }
+
+
 
 .menu-container {
     height: auto;
