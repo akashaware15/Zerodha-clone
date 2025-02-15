@@ -8,7 +8,7 @@
 .logo {
     height: 17px;
     width: 129px;
-    background-image: url("logo.svg");
+    background-image: url("images/logo.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -84,7 +84,7 @@
 .kite-img {
     height: 50px;
     width: 50px;
-    background-image: url("kite-logo.svg");
+    background-image: url("images/kite-logo.svg");
     background-size: cover;
 
 }
@@ -92,7 +92,7 @@
 .console-img {
     height: 50px;
     width: 50.83px;
-    background-image: url("console.svg");
+    background-image: url("images/console.svg");
     background-size: cover;
 }
 
@@ -100,7 +100,7 @@
 .kite-connect-img {
     height: 50px;
     width: 50px;
-    background-image: url("kite-connect.svg");
+    background-image: url("images/kite-connect.svg");
     background-size: cover;
 }
 
@@ -108,7 +108,7 @@
 .coin-img {
     height: 50px;
     width: 50.83px;
-    background-image: url("coin.svg");
+    background-image: url("images/coin.svg");
     background-size: cover;
 }
 
@@ -240,7 +240,7 @@ hr {
 .container2-landingpage {
     height: 328.5px;
     width: 471.5px;
-    background-image: url("landing.svg");
+    background-image: url("images/landing.svg");
     background-size: cover;
 }
 
