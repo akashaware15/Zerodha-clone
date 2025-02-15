@@ -376,10 +376,41 @@ span:hover {
 .right-container3 {
     width: 65rem;
     height: 12rem;
-    background-image: url("images/container3.png");
-    background-size: cover;
     cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+
+.right-container3 p {
+    font-size: 10px;
+    color: #666666;
+}
+
+.container3-img1 {
+    height: 97px;
+    width: 120px;
+    background-image: url("Signup-images/0.svg");
+    background-size: cover;
+}
+
+.container3-img2 {
+    height: 97px;
+    width: 120px;
+    background-image: url("Signup-images/0.svg");
+    background-size: cover;
+}
+
+
+.container3-img3 {
+    height: 97px;
+    width: 120px;
+    background-image: url("Signup-images/20.svg");
+    background-size: cover;
+}
+
 
 
 .left-container3 h3 {
