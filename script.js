@@ -8,7 +8,5 @@ menuIcon.onclick = () => {
 
 
 function showMessage() {
-    let confirmAction = confirm("Are you sure you want to go?");
-      if (confirmAction) 
     window.location.href = " https://akashaware15.github.io/Sign-Up-page/";
 }
