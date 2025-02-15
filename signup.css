@@ -14,6 +14,10 @@
 }
 
 
+#menu-icon {
+    user-select: none; 
+}
+
 
 /******************************** Menu icon ********************************/
 
@@ -24,7 +28,12 @@
     display: none;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    margin-top: 4.23rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .show {
@@ -52,10 +61,8 @@
     align-items: center;
     margin-right: 10rem;
     box-shadow:
-        5px 5px 10px rgba(0, 0, 0, 0.3),
-        /* Right & Bottom */
-        -5px 5px 10px rgba(0, 0, 0, 0.3);
-    /*Left & Bottom */
+    5px 5px 10px rgba(0, 0, 0, 0.3),
+    -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .menu-text {
@@ -122,10 +129,8 @@
     display: flex;
     margin-right: 10rem;
     box-shadow:
-        5px 5px 10px rgba(0, 0, 0, 0.3),
-        /* Right & Bottom */
-        -5px 5px 10px rgba(0, 0, 0, 0.3);
-    /*Left & Bottom */
+    5px 5px 10px rgba(0, 0, 0, 0.3),
+    -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .menu-footer {
@@ -176,6 +181,11 @@ ul a {
     align-items: center;
     justify-content: space-between;
     padding: 0rem 10rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .left-content a {
@@ -209,6 +219,8 @@ hr {
     height: 208px;
     margin: 0px 122px;
     padding: 96px 40px 0px;
+    margin-top: 4.23rem;
+
 }
 
 .container-1 h1 {
@@ -225,7 +237,7 @@ hr {
 }
 
 
-/*********************************** container-1 *******************************/
+/*********************************** container-2 *******************************/
 
 .container-2 {
     height: 524px;
@@ -330,4 +342,97 @@ margin-top: 48px;
 .contact-section span {
     color: #397DD0;
     font-size: 14px;
+}
+
+
+
+/*********************************** container-3 *******************************/
+
+.container-3 {
+    height: 524.78px;
+    background-color: #ffffff;
+    margin: 0px 122px;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-3 h2 {
+    font-size: 32px;
+    color: #424242
+}
+
+
+.container {
+    width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+/********** card-images ***********/
+
+.card1-img {
+    height: 84.5px;
+    width: 112px;
+    background-image: url("Signup-images/stock.svg");
+}
+
+.card2-img {
+    height: 66.66px;
+    width: 112px;
+    background-image: url("Signup-images/mutual-funds.svg");
+}
+
+.card3-img {
+    height: 74.8px;
+    width: 112px;
+    background-image: url("Signup-images/ipo.svg");
+}
+
+.card4-img {
+    height: 111.99px;
+    width: 112px;
+    background-image: url("Signup-images/option.svg");
+}
+
+
+/********* Grid Layout *******/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 16px;
+    padding: 40px 0;
+}
+
+.card {
+    background: rgba(0, 0, 255, 0.1);
+    border: 2px solid purple;
+    padding: 40px 20px;
+    border-radius: 12px;
+    text-align: left;
+    transition: transform 0.3s;
+    display: flex;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: rgba(0, 0, 255, 0.2);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
 }

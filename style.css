@@ -17,6 +17,10 @@
     text-decoration: none;
 }
 
+#menu-icon {
+    user-select: none; 
+}
+
 /******************************** Menu icon ********************************/
 
 .about-menu {
@@ -26,7 +30,12 @@
     display: none;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    margin-top: 4.23rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .show {
@@ -54,8 +63,8 @@
     align-items: center;
     margin-right: 10rem;
     box-shadow:
-    5px 5px 10px rgba(0, 0, 0, 0.3),     /* Right & Bottom */
-    -5px 5px 10px rgba(0, 0, 0, 0.3);    /*Left & Bottom */
+    5px 5px 10px rgba(0, 0, 0, 0.3),
+    -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .menu-text {
@@ -122,8 +131,8 @@
     display: flex;
     margin-right: 10rem;
     box-shadow:
-    5px 5px 10px rgba(0, 0, 0, 0.3),        /* Right & Bottom */
-    -5px 5px 10px rgba(0, 0, 0, 0.3);       /*Left & Bottom */
+    5px 5px 10px rgba(0, 0, 0, 0.3),
+    -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .menu-footer {
@@ -142,6 +151,11 @@
 .menu-footer a {
     color: #666666;
     font-size: 14.4px;
+    cursor: pointer;
+}
+
+.menu-footer a:hover {
+    color: #387ED1;
 }
 
 .edution {
@@ -200,12 +214,13 @@ hr {
 /************************************************* container-1 ****************************************/
 
 .container-1 {
-    height: 36.3rem;
+    height: auto;
     background-color: rgb(255, 255, 255);
     display: grid;
     margin: 2rem 6rem;
     padding: 0px 20px 120px;
-
+    padding-top: 4.23rem;
+    flex-wrap: wrap;
 }
 
 
@@ -264,6 +279,7 @@ hr {
     margin: 2rem 6rem 0rem 6rem;
     padding: 0px 30px;
     gap: 10%;
+    overflow: hidden;
 }
 
 .img-container-2 {
@@ -354,6 +370,7 @@ span:hover {
     margin-top: 6rem;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .right-container3 {
@@ -400,6 +417,7 @@ span:hover {
     display: flex;
     align-items: center;
     gap: 20%;
+    overflow: hidden;
 }
 
 .img-container4 {
@@ -451,6 +469,7 @@ span:hover {
     align-items: center;
     justify-content: center;
     margin-top: 5rem;
+    overflow: hidden;
 }
 
 .container-5 h2 {
@@ -483,11 +502,12 @@ span:hover {
 }
 
 
-/****************************** container-5 ******************************/
+/****************************** footer ******************************/
 
 .footer {
     height: 25rem;
     background-color: #FBFBFB;
+    overflow: hidden;
 }
 
 .foot-panel {
