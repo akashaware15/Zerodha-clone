@@ -14,12 +14,10 @@
 }
 
 
-#menu-icon {
-    user-select: none;
-}
 
 
-/******************************** Menu icon ********************************/
+
+/*************************************************** Menu icon ***************************************************/
 
 .about-menu {
     height: auto;
@@ -34,6 +32,10 @@
     left: 0;
     width: 100%;
     z-index: 1000;
+}
+
+#menu-icon {
+    user-select: none;
 }
 
 .show {
@@ -93,6 +95,7 @@
     width: 50px;
     background-image: url("Signup-images/kite-logo.svg");
     background-size: cover;
+    cursor: pointer;
 
 }
 
@@ -101,6 +104,7 @@
     width: 50.83px;
     background-image: url("Signup-images/console.svg");
     background-size: cover;
+    cursor: pointer;
 }
 
 
@@ -109,6 +113,7 @@
     width: 50px;
     background-image: url("Signup-images/kite-connect.svg");
     background-size: cover;
+    cursor: pointer;
 }
 
 
@@ -117,6 +122,7 @@
     width: 50.83px;
     background-image: url("Signup-images/coin.svg");
     background-size: cover;
+    cursor: pointer;
 }
 
 /*menu-icon-container2  */
@@ -169,10 +175,15 @@ ul a {
     font-size: 16px;
     margin-top: 10px;
     color: #666666;
+    cursor: pointer;
+}
+
+ul a:hover {
+    color: #387ED1;
 }
 
 
-/*********************************************** header ***********************************************/
+/*************************************************** header ***************************************************/
 
 .header {
     background-color: rgb(255, 255, 255);
@@ -213,7 +224,7 @@ hr {
 }
 
 
-/*********************************** container-1 *******************************/
+/*************************************************** container-1***************************************************/
 
 .container-1 {
     height: 208px;
@@ -237,7 +248,7 @@ hr {
 }
 
 
-/*********************************** container-2 *******************************/
+/*************************************************** container-2 ***************************************************/
 
 .container-2 {
     height: 524px;
@@ -247,6 +258,7 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .container2-landingpage {
@@ -254,6 +266,7 @@ hr {
     width: 471.5px;
     background-image: url("Signup-images/landing.svg");
     background-size: cover;
+    cursor: pointer;
 }
 
 .contact-section {
@@ -342,11 +355,15 @@ hr {
 .contact-section span {
     color: #397DD0;
     font-size: 14px;
+    cursor: pointer;
+}
+
+.contact-section span:hover {
+    color: #878787;
 }
 
 
-
-/*********************************** container-3 *******************************/
+/*************************************************** container-3 ***************************************************/
 
 .container-3 {
     height: auto;
@@ -358,6 +375,7 @@ hr {
     align-items: center;
     justify-content: center;
     padding-bottom: 128px;
+    overflow: hidden;
 }
 
 .container-3 h2 {
@@ -385,6 +403,7 @@ hr {
     width: 112px;
     background-image: url("Signup-images/stock.svg");
     background-size: cover;
+    cursor: pointer;
 }
 
 .card2-img {
@@ -392,6 +411,7 @@ hr {
     width: 112px;
     background-image: url("Signup-images/mutual-funds.svg");
     background-size: cover;
+    cursor: pointer;
 }
 
 .card3-img {
@@ -399,12 +419,14 @@ hr {
     width: 112px;
     background-image: url("Signup-images/ipo.svg");
     background-size: cover;
+    cursor: pointer;
 }
 
 .card4-img {
     height: 111.99px;
     width: 120px;
     background-image: url("Signup-images/option.svg");
+    cursor: pointer;
 }
 
 
@@ -462,12 +484,13 @@ hr {
 }
 
 
-/*********************************** container-4 *******************************/
+/*************************************************** container-4 ***************************************************/
 
 .container-4 {
     height: 460px;
     background-color: #FBFBFB;
     margin: 0px 122px;
+    overflow: hidden;
 }
 
 .container-4 h2 {
@@ -483,6 +506,7 @@ hr {
     width: 365px;
     background-image: url("Signup-images/container4-landing.svg");
     background-size: cover;
+    cursor: pointer;
 }
 
 .container4-landing {
@@ -523,7 +547,7 @@ hr {
     margin-right: 20px;
 }
 
-/*********************************** container-5 *******************************/
+/*************************************************** container-5 ***************************************************/
 
 .container-5 {
     height: 824px;
@@ -534,6 +558,7 @@ hr {
     align-items: center;
     justify-content: center;
     gap: 1%;
+    overflow: hidden;
 }
 
 .container5-landing {
@@ -546,6 +571,7 @@ hr {
     width: 448px;
     background-image: url("Signup-images/container5-landing.svg");
     background-size: cover;
+    cursor: pointer;
     padding: 0px 20px;
 }
 
@@ -559,6 +585,7 @@ hr {
     font-size: 20px;
     color: #424242;
     padding: 0px 0px 8px;
+    overflow: hidden;
 }
 
 .container5-text p {
@@ -579,7 +606,7 @@ hr {
 }
 
 
-/*********************************** container-6 *******************************/
+/*************************************************** container-6 ***************************************************/
 
 .container-6 {
     margin: 0px 122px;
@@ -589,6 +616,7 @@ hr {
     padding: 64px 20px;
     background-color: #ffffff;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .account-box {
@@ -617,8 +645,82 @@ hr {
     line-height: 1.4;
 }
 
+/*************************************************** container-7 ***************************************************/
 
-/*********************************** container-8 *******************************/
+.container-7 {
+    height: 572px;
+    margin: 0px 122px;
+    padding: 40px 40px 80px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.question span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #424242;
+}
+
+.container-7 h2 {
+    font-size: 24px;
+    margin-bottom: 2rem;
+    color: #424242;
+    position: relative;
+}
+
+.container-7 h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 50px;
+    height: 4px;
+    background-color: #3b82f6;
+    border-radius: 2px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    padding: 1.5rem 1rem;
+    transition:  0.3s ease;
+}
+
+
+.faq-item .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.faq-item .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    color: #555;
+    font-size: 16px;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+.faq-item.active .answer {
+    max-height: 200px;
+}
+
+.faq-item .icon {
+    transition: transform 0.3s ease;
+    font-size: 13px;
+}
+
+.faq-item.active .icon {
+    transform: rotate(180deg);
+}
+
+
+/*************************************************** container-8 ***************************************************/
 
 .container-8 {
     height: 296px;
@@ -662,7 +764,7 @@ hr {
 }
 
 
-/****************************** footer ******************************/
+/*************************************************** footer ***************************************************/
 
 .footer {
     height: 25rem;
@@ -722,8 +824,9 @@ ul h2 {
 }
 
 footer a {
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 16px;
+    color: #666666;
+    font-weight: 600;
 }
 
 .copyright {
