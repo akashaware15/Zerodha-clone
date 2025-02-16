@@ -250,6 +250,201 @@ hr {
 .container2 {
     height: 517px;
     display: flex;
+    justify-content: center;
+    gap: 5%;
     margin: 0px 85px;
     padding: 80px 0px 0px;
+}
+
+.container2 p{
+    line-height: 30px;
+}
+
+.container2 span{
+    color: #387ED1;
+    cursor: pointer;
+}
+
+.container2 span:hover {
+    color: #424242;
+}
+
+/* rightdiv */
+
+.leftdiv-container2 .cont2-para1{
+    font-size: 16px;
+    color: #424242;
+    margin: 16px 0px 15px;
+}
+
+.leftdiv-container2 .cont2-para2{
+    font-size: 16px;
+    color: #424242;
+    margin: 16px 0px 15px;
+}
+
+.leftdiv-container2 .cont2-para3{
+    font-size: 16px;
+    color: #424242;
+    margin: 16px 0px 15px;
+}
+
+/* rightdiv */
+
+.rightdiv-container2 .cont2-para1 {
+    font-size: 16px;
+    color: #424242;
+    margin: 16px 0px 15px;
+}
+
+.rightdiv-container2 .cont2-para2 {
+    font-size: 16px;
+    color: #424242;
+    margin: 16px 0px 15px;
+}
+
+.rightdiv-container2 .cont2-para3 {
+    font-size: 16px;
+    color: #424242;
+    margin: 16px 0px 15px;
+}
+/* peolple */
+
+.people {
+    text-align: center;
+    font-size: 32px;
+    color: #424242;
+    margin: 0px 0px 20px;
+    padding: 80px 0px;
+}
+
+
+/*************************************************container3*************************************************/
+
+.container3 {
+    height: 542px;
+    padding: 40px 0px 100px;
+    background-color: #ffffff;
+    margin: 0px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+}
+
+.ceo-img{
+    height: 295px;
+    width: 295px;
+    background-image: url("About-images/img-1.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.img-cont3 h4 {
+    text-align: center;
+    font-size: 20px;
+    color: #424242;
+    margin-top: 20px;
+}
+
+.img-cont3 p {
+    text-align: center;
+    font-size: 14.4px;
+    color: #666666;
+    margin: 14.4px 0px 15px;
+}
+
+.info-ceo p {
+    font-size: 16px;
+    color: #424242;
+    margin: 16px 0px 15px;
+    line-height: 30px;
+}
+
+.info-ceo span {
+    color: #387ED1;
+    cursor: pointer;
+}
+
+.info-ceo span:hover {
+    color: #424242;
+}
+
+
+/*************************************************container4*************************************************/
+
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 0px 85px;
+    text-align: center;
+}
+
+/* Member Card */
+.member-card {
+    width: 250px;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.member-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Profile Image */
+.member-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+
+}
+
+/* Name & Title */
+.member-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.member-card p {
+    color: #555;
+    margin: 0.2rem 0;
+}
+
+/* Bio Section */
+.bio {
+    margin-top: 0.5rem;
+    color: #666666;
+    cursor: pointer;
+    position: relative;
+}
+
+.bio::after {
+    content: ' ▼';
+    font-size: 0.7rem;
+}
+
+/* Bio Description */
+.bio-description {
+    max-height: 0;
+    overflow: hidden;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #333;
+    transition: max-height 0.5s ease;
+    line-height: 1.5;
+}
+
+.member-card.active .bio-description {
+    max-height: 150px;
+}
+
+.member-card.active .bio::after {
+    content: '▲';
 }
