@@ -54,6 +54,29 @@
     z-index: 1000;
 }
 
+#menu-icon {
+    user-select: none;
+}
+#signup-page {
+    text-decoration: none;
+}
+
+#about {
+    text-decoration: none;
+}
+
+#product {
+    text-decoration: none;
+}
+
+#pricing {
+    text-decoration: none;
+}
+
+#Support {
+    text-decoration: none;
+}
+
 .show {
     display: block;
 }
@@ -79,8 +102,8 @@
     align-items: center;
     margin-right: 10rem;
     box-shadow:
-    5px 5px 10px rgba(0, 0, 0, 0.3),
-    -5px 5px 10px rgba(0, 0, 0, 0.3);
+        5px 5px 10px rgba(0, 0, 0, 0.3),
+        -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .menu-text {
@@ -109,32 +132,36 @@
 .kite-img {
     height: 50px;
     width: 50px;
-    background-image: url("images/kite.svg");
+    background-image: url("Signup-images/kite-logo.svg");
     background-size: cover;
+    cursor: pointer;
 
 }
 
 .console-img {
     height: 50px;
     width: 50.83px;
-    background-image: url("images/console.svg");
+    background-image: url("Signup-images/console.svg");
     background-size: cover;
+    cursor: pointer;
 }
 
 
 .kite-connect-img {
     height: 50px;
     width: 50px;
-    background-image: url("images/kite-connect.svg");
+    background-image: url("Signup-images/kite-connect.svg");
     background-size: cover;
+    cursor: pointer;
 }
 
 
 .coin-img {
     height: 50px;
     width: 50.83px;
-    background-image: url("images/coin.svg");
+    background-image: url("Signup-images/coin.svg");
     background-size: cover;
+    cursor: pointer;
 }
 
 /*menu-icon-container2  */
@@ -147,8 +174,8 @@
     display: flex;
     margin-right: 10rem;
     box-shadow:
-    5px 5px 10px rgba(0, 0, 0, 0.3),
-    -5px 5px 10px rgba(0, 0, 0, 0.3);
+        5px 5px 10px rgba(0, 0, 0, 0.3),
+        -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .menu-footer {
@@ -167,11 +194,6 @@
 .menu-footer a {
     color: #666666;
     font-size: 14.4px;
-    cursor: pointer;
-}
-
-.menu-footer a:hover {
-    color: #387ED1;
 }
 
 .edution {
@@ -184,6 +206,18 @@
 }
 
 .tqna:hover {
+    color: #387ED1;
+}
+
+ul a {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666666;
+    cursor: pointer;
+}
+
+ul a:hover {
     color: #387ED1;
 }
 
@@ -201,7 +235,10 @@
     left: 0;
     width: 100%;
     z-index: 1000;
+    overflow: hidden;
+
 }
+
 
 .left-content a {
     padding-left: 40px;
@@ -254,6 +291,8 @@ hr {
     gap: 5%;
     margin: 0px 85px;
     padding: 80px 0px 0px;
+    overflow: hidden;
+
 }
 
 .container2 p{
@@ -316,6 +355,8 @@ hr {
     color: #424242;
     margin: 0px 0px 20px;
     padding: 80px 0px;
+    overflow: hidden;
+
 }
 
 
@@ -330,6 +371,7 @@ hr {
     align-items: center;
     justify-content: center;
     gap: 6%;
+    overflow: hidden;
 }
 
 .ceo-img{
@@ -408,12 +450,13 @@ hr {
 /* Name & Title */
 .member-card h3 {
     margin: 0.5rem 0;
-    font-size: 1.5rem;
-    color: #222;
+    font-size: 20px;
+    color: #424242;
 }
 
 .member-card p {
-    color: #555;
+    color: #666666;
+    font-size: 14.4px;
     margin: 0.2rem 0;
 }
 
@@ -421,6 +464,7 @@ hr {
 .bio {
     margin-top: 0.5rem;
     color: #666666;
+    font-size: 14.4px;
     cursor: pointer;
     position: relative;
 }
@@ -442,7 +486,7 @@ hr {
 }
 
 .member-card.active .bio-description {
-    max-height: 150px;
+    max-height: 300px;
 }
 
 .member-card.active .bio::after {
