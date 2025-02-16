@@ -270,3 +270,163 @@ hr {
     border: none;
     background: rgba(0, 0, 0, 0.075);
 }
+
+
+/************************************************* header*************************************************/
+
+.heading {
+    height: 361px;
+    background-color: #ffffff;
+    margin: 0px 62px;
+    padding: 100px 0px;
+    margin-top: 4.23rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+}
+
+.heading h1 {
+    font-size: 44px;
+    color: #424242;
+}
+
+.heading-para1 {
+    font-size: 20px;
+    margin: 15px 0px 15px;
+    color: #424242;
+}
+
+.heading-para2 {
+    font-size: 16px;
+    margin: 16px 0px 15px;
+    color: #424242;
+}
+
+
+/*************************************************container1 *************************************************/
+
+.container-1 {
+    height: 509px;
+    margin: 0px 62px;
+    color: #424242;
+    font-size: 16px;
+    padding: 80px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    overflow: hidden;
+}
+
+.container1-img {
+    height: 421px;
+    width: 558px;
+    background-image: url("images/product-images/container-1.png");
+    background-size: cover;
+}
+
+.kite-info h2 {
+    font-size: 32px;
+    margin: 0px 0px 20px;
+    color: #424242;
+
+}
+
+.kite-info p {
+    font-size: 16px;
+    margin: 16px 0px 15px;
+    color: #424242;
+    line-height: 30px;
+}
+
+.demo {
+    height: 27.2px;
+    width: 162px;
+}
+
+.learn {
+    height: 27.2px;
+    width: 162px;
+}
+
+.link-container1 {
+    display: flex;
+    color: #387ED1;
+    cursor: pointer;
+}
+
+.demo:hover {
+    color: #424242;
+}
+
+.learn:hover {
+    color: #424242;
+}
+
+.app-container1 {
+    height: fit-content;
+    width: auto;
+    display: flex;
+    gap: 6%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.android-img-cont1 {
+    height: 45px;
+    width: 151px;
+    background-image: url("images/product-images/google-play-badge.svg");
+    background-size: cover;
+
+}
+
+.ios-img-cont1 {
+    height: 45px;
+    width: 135px;
+    background-image: url("images/product-images/appstore-badge.svg");
+    background-size: cover;
+}
+
+/************************************************* container-2 *************************************************/
+
+.container-2 {
+    height: 620px;
+    margin: 0px 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    overflow: hidden;
+}
+
+.container-2 h2 {
+    font-size: 32px;
+    color: #424242;
+    margin: 0px 0px 20px;
+}
+
+.container-2 p {
+    font-size: 16px;
+    color: #424242;
+    margin: 16px 0px 15px;
+    line-height: 30px;
+}
+
+.container-2 a {
+    font-size: 16px;
+    color: #387ED1;
+    cursor: pointer;
+}
+
+.container-2 a:hover {
+    color: #424242;
+}
+
+.container2-img {
+    height: 611px;
+    width: 623px;
+    background-image: url("images/product-images/container-2.png");
+    background-size: cover;
+}
