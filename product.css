@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    height: 17px;
+    width: 129px;
+    background-image: url("images/logo.svg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#signup-page {
+    text-decoration: none;
+}
+
+#about {
+    text-decoration: none;
+}
+
+#product {
+    text-decoration: none;
+}
+
+#pricing {
+    text-decoration: none;
+}
+
+#Support {
+    text-decoration: none;
+}
+
+#menu-icon {
+    user-select: none; 
+}
+
+/************************************************* Menu icon *************************************************/
+
+.about-menu {
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.23rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#menu-icon {
+    user-select: none;
+}
+#signup-page {
+    text-decoration: none;
+}
+
+#about {
+    text-decoration: none;
+    color: #387ED1;
+}
+
+#product {
+    text-decoration: none;
+}
+
+#pricing {
+    text-decoration: none;
+}
+
+#Support {
+    text-decoration: none;
+}
+
+.show {
+    display: block;
+}
+
+.menu-container {
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/*menu-icon-container1  */
+
+.menu-icon-container1 {
+    height: 146px;
+    width: 700px;
+    background-color: white;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10rem;
+    box-shadow:
+        5px 5px 10px rgba(0, 0, 0, 0.3),
+        -5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-text h4 {
+    padding-top: 10px;
+    font-size: 14.4px;
+    color: #666666;
+}
+
+.menu-text h4:hover {
+    color: #387ED1;
+}
+
+.menu-text a {
+    padding-top: 10px;
+    font-size: 12px;
+    color: #9B9B9B;
+}
+
+.kite-img {
+    height: 50px;
+    width: 50px;
+    background-image: url("Signup-images/kite-logo.svg");
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.console-img {
+    height: 50px;
+    width: 50.83px;
+    background-image: url("Signup-images/console.svg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.kite-connect-img {
+    height: 50px;
+    width: 50px;
+    background-image: url("Signup-images/kite-connect.svg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.coin-img {
+    height: 50px;
+    width: 50.83px;
+    background-image: url("Signup-images/coin.svg");
+    background-size: cover;
+    cursor: pointer;
+}
+
+/*menu-icon-container2  */
+
+.menu-icon-container2 {
+    height: 212px;
+    width: 700px;
+    background-color: #FAFAFB;
+    padding: 20px 30px;
+    display: flex;
+    margin-right: 10rem;
+    box-shadow:
+        5px 5px 10px rgba(0, 0, 0, 0.3),
+        -5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-footer {
+    height: 212px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-footer h2 {
+    color: #424242;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.menu-footer a {
+    color: #666666;
+    font-size: 14.4px;
+}
+
+.edution {
+    display: flex;
+    gap: 60%;
+}
+
+.versity:hover {
+    color: #387ED1;
+}
+
+.tqna:hover {
+    color: #387ED1;
+}
+
+ul a {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666666;
+    cursor: pointer;
+}
+
+ul a:hover {
+    color: #387ED1;
+}
+
+/************************************************* header*************************************************/
+
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 4.23rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 10rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+
+}
+
+
+.left-content a {
+    padding-left: 40px;
+    cursor: pointer;
+    font-size: 14.4px;
+    color: #666666;
+}
+
+.left-content a:hover {
+    color: #387ED1;
+    ;
+}
+
+.left-content i {
+    padding-left: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background: rgba(0, 0, 0, 0.075);
+}
