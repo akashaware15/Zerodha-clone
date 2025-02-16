@@ -63,6 +63,7 @@
 
 #about {
     text-decoration: none;
+    color: #387ED1;
 }
 
 #product {
@@ -423,6 +424,7 @@ hr {
     gap: 3rem;
     margin: 0px 85px;
     text-align: center;
+    padding-bottom: 90px;
 }
 
 /* Member Card */
@@ -460,7 +462,6 @@ hr {
     margin: 0.2rem 0;
 }
 
-/* Bio Section */
 .bio {
     margin-top: 0.5rem;
     color: #666666;
@@ -492,3 +493,75 @@ hr {
 .member-card.active .bio::after {
     content: '▲';
 }
+
+/*************************************************** footer ***************************************************/
+
+.footer {
+    height: 25rem;
+    background-color: #FBFBFB;
+    overflow: hidden;
+}
+
+.foot-panel {
+    font-size: 10px;
+}
+
+.footer ul a {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer ul h2 {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-icon i {
+    font-size: 25px;
+    margin-left: 10px;
+    padding-left: 3px;
+}
+
+
+.foot-panel1 {
+    padding-top: 80px;
+    color: #666666;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icon {
+    margin-top: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+
+ul a {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666666;
+}
+
+ul h2 {
+    font-size: 18px;
+    margin: 0px 0px 10px;
+}
+
+footer a {
+    font-size: 16px;
+    color: #666666;
+    font-weight: 600;
+}
+
+.copyright {
+    color: #666666;
+    line-height: 25px;
+}
+
+
