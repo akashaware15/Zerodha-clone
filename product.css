@@ -34,7 +34,7 @@
 }
 
 #menu-icon {
-    user-select: none; 
+    user-select: none;
 }
 
 /************************************************* Menu icon *************************************************/
@@ -68,7 +68,7 @@
 
 #about {
     text-decoration: none;
-    
+
 }
 
 #product {
@@ -280,11 +280,11 @@ hr {
     margin: 0px 62px;
     padding: 100px 0px;
     margin-top: 4.23rem;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .heading h1 {
@@ -394,6 +394,7 @@ hr {
 .container-2 {
     height: 620px;
     margin: 0px 62px;
+    padding: 80px 0px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -429,4 +430,400 @@ hr {
     width: 623px;
     background-image: url("images/product-images/container-2.png");
     background-size: cover;
+}
+
+/************************************************* container-3 *************************************************/
+
+
+.container-3 {
+    height: 509px;
+    margin: 0px 62px;
+    color: #424242;
+    font-size: 16px;
+    padding: 80px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    overflow: hidden;
+}
+
+.container3-img {
+    height: 387px;
+    width: 564px;
+    background-image: url("images/product-images/container-3.png");
+    background-size: cover;
+}
+
+.coin-info h2 {
+    font-size: 32px;
+    margin: 0px 0px 20px;
+    color: #424242;
+
+}
+
+.coin-info p {
+    font-size: 16px;
+    margin: 16px 0px 15px;
+    color: #424242;
+    line-height: 30px;
+}
+
+.coin {
+    height: 27.2px;
+    width: 162px;
+}
+
+.link-container3 {
+    display: flex;
+    color: #387ED1;
+    cursor: pointer;
+}
+
+.coin:hover {
+    color: #424242;
+}
+
+
+.app-container3 {
+    height: fit-content;
+    width: auto;
+    display: flex;
+    gap: 6%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.android-img-cont3 {
+    height: 45px;
+    width: 151px;
+    background-image: url("images/product-images/google-play-badge.svg");
+    background-size: cover;
+
+}
+
+.ios-img-cont3 {
+    height: 45px;
+    width: 135px;
+    background-image: url("images/product-images/appstore-badge.svg");
+    background-size: cover;
+}
+
+/************************************************* container-4 *************************************************/
+
+.container-4 {
+    height: 620px;
+    margin: 0px 62px;
+    padding: 80px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    overflow: hidden;
+}
+
+.container-4 h2 {
+    font-size: 32px;
+    color: #424242;
+    margin: 0px 0px 20px;
+}
+
+.container-4 p {
+    font-size: 16px;
+    color: #424242;
+    margin: 16px 0px 15px;
+    line-height: 30px;
+}
+
+.container-4 a {
+    font-size: 16px;
+    color: #387ED1;
+    cursor: pointer;
+}
+
+.container-4 a:hover {
+    color: #424242;
+}
+
+.container4-img {
+    height: 611px;
+    width: 623px;
+    background-image: url("images/product-images/container-4.png");
+    background-size: cover;
+}
+
+/************************************************* container-5 *************************************************/
+
+.container-5 {
+    height: 509px;
+    margin: 0px 62px;
+    color: #424242;
+    font-size: 16px;
+    padding: 80px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    overflow: hidden;
+}
+
+.container5-img {
+    height: 499px;
+    width: 444px;
+    background-image: url("images/product-images/container-5.png");
+    background-size: cover;
+}
+
+.Varsity-info h2 {
+    font-size: 32px;
+    margin: 0px 0px 20px;
+    color: #424242;
+
+}
+
+.Varsity-info p {
+    font-size: 16px;
+    margin: 16px 0px 15px;
+    color: #424242;
+    line-height: 30px;
+}
+
+
+
+.app-container5 {
+    height: fit-content;
+    width: auto;
+    display: flex;
+    gap: 6%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.android-img-cont5 {
+    height: 45px;
+    width: 151px;
+    background-image: url("images/product-images/google-play-badge.svg");
+    background-size: cover;
+
+}
+
+.ios-img-cont5 {
+    height: 45px;
+    width: 135px;
+    background-image: url("images/product-images/appstore-badge.svg");
+    background-size: cover;
+}
+
+
+.zerodha-blog {
+    padding: 80px 0px 0px;
+}
+
+.zerodha-blog p {
+    margin: 10px 0px 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #424242;
+}
+
+.zerodha-blog span {
+    color: #387ED1;
+    cursor: pointer;
+}
+
+.zerodha-blog span:hover {
+    color: #424242;
+}
+
+
+/************************************************* container-6 *************************************************/
+.container-6 {
+    text-align: center;
+    padding: 80px 0px 0px;
+    margin: 0px 62px;
+}
+
+.container-6 h2 {
+    font-size: 32px;
+    margin: 0px 0px 20px;
+    color: #424242;
+}
+
+.container-6 p {
+    font-size: 16px;
+    margin: 16px 0px 15px;
+    color: #424242;
+}
+
+.product-card {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px 0px;
+}
+
+.product-card p {
+    font-size: 12px;
+    margin: 10px 0px 0px;
+    color: #9B9B9B;
+    line-height: 18px;
+}
+
+.product-card2 {
+    margin-top: 70px;
+}
+
+.product-card4 {
+    margin-top: 70px;
+}
+
+.product-card6 {
+    margin-top: 70px;
+}
+
+
+.product-1 {
+    height: 348px;
+    width: 256px;
+    background-color: rgb(255, 255, 255);
+}
+
+.product-2 {
+    height: 333px;
+    width: 282px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.product-3 {
+    height: 348px;
+    width: 218px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* images */
+
+.product-card1 img {
+    height: 55px;
+    width: 198px;
+}
+
+.product-card2 img {
+    height: 55px;
+    width: 166px;
+}
+
+.product-card3 img {
+    height: 55px;
+    width: 166px;
+}
+
+.product-card4 img {
+    height: 55px;
+    width: 166px;
+}
+
+.product-card5 img {
+    height: 55px;
+    width: 166px;
+}
+
+
+.product-card6 img {
+    height: 55px;
+    width: 166px;
+}
+
+
+#btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px 80px;
+}
+
+#btn button {
+    height: 2.79rem;
+    width: 12.735rem;
+    background-color: #387ED1;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn button:hover {
+    background-color: black;
+}
+
+
+/*************************************************** footer **************************************************/
+
+.footer {
+    height: 25rem;
+    background-color: #FBFBFB;
+    overflow: hidden;
+}
+
+.foot-panel {
+    font-size: 10px;
+}
+
+.footer ul a {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer ul h2 {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-icon i {
+    font-size: 25px;
+    margin-left: 10px;
+    padding-left: 3px;
+}
+
+
+.foot-panel1 {
+    padding-top: 80px;
+    color: #666666;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icon {
+    margin-top: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+
+ul a {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666666;
+}
+
+ul h2 {
+    font-size: 18px;
+    margin: 0px 0px 10px;
+}
+
+footer a {
+    font-size: 16px;
+    color: #666666;
+    font-weight: 600;
+}
+
+.copyright {
+    color: #666666;
+    line-height: 25px;
 }
