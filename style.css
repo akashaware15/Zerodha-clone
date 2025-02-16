@@ -13,6 +13,38 @@
     cursor: pointer;
 }
 
+#menu-icon {
+    user-select: none;
+}
+
+#home {
+    text-decoration: none;
+    color: #387ED1;
+}
+
+#signup-page {
+    text-decoration: none;
+}
+
+#about {
+    text-decoration: none;
+   
+}
+
+#product {
+    text-decoration: none;
+    
+}
+
+#pricing {
+    text-decoration: none;
+}
+
+#Support {
+    text-decoration: none;
+}
+
+
 #signup-page {
     text-decoration: none;
 }
