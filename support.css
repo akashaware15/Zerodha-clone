@@ -275,6 +275,10 @@ hr {
     cursor: pointer;
 }
 
+.headings a:hover{
+    color: #d9dadc;
+}
+
 /* left -div */
 
 .left-support-div p {
