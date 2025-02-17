@@ -13,25 +13,6 @@
     cursor: pointer;
 }
 
-#signup-page {
-    text-decoration: none;
-}
-
-#about {
-    text-decoration: none;
-}
-
-#product {
-    text-decoration: none;
-}
-
-#pricing {
-    text-decoration: none;
-}
-
-#Support {
-    text-decoration: none;
-}
 
 #menu-icon {
     user-select: none;
@@ -76,11 +57,8 @@
     color: #387ED1;
 }
 
-#pricing {
-    text-decoration: none;
-}
 
-#Support {
+#support {
     text-decoration: none;
 }
 
@@ -243,6 +221,7 @@ ul a:hover {
     width: 100%;
     z-index: 1000;
     overflow: hidden;
+    box-shadow: 0 4px 2px -3px rgba(0, 0, 0, 0.2); 
 
 }
 
@@ -272,7 +251,7 @@ hr {
 }
 
 
-/************************************************* header*************************************************/
+/************************************************* heading *************************************************/
 
 .heading {
     height: 361px;

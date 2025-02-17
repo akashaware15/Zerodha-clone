@@ -36,34 +36,12 @@
     
 }
 
-#pricing {
-    text-decoration: none;
-}
-
-#Support {
+#support {
     text-decoration: none;
 }
 
 
-#signup-page {
-    text-decoration: none;
-}
 
-#about {
-    text-decoration: none;
-}
-
-#product {
-    text-decoration: none;
-}
-
-#pricing {
-    text-decoration: none;
-}
-
-#Support {
-    text-decoration: none;
-}
 
 #menu-icon {
     user-select: none; 
@@ -235,6 +213,8 @@
     left: 0;
     width: 100%;
     z-index: 1000;
+    box-shadow: 0 4px 2px -3px rgba(0, 0, 0, 0.2); 
+
 }
 
 .left-content a {
