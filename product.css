@@ -8,7 +8,7 @@
 .logo {
     height: 17px;
     width: 129px;
-    background-image: url("images/logo.svg");
+    background-image: url("Home-images/logo.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -117,7 +117,7 @@
 .kite-img {
     height: 50px;
     width: 50px;
-    background-image: url("Signup-images/kite-logo.svg");
+    background-image: url("Signup-section/images/kite-logo.svg");
     background-size: cover;
     cursor: pointer;
 
@@ -126,7 +126,7 @@
 .console-img {
     height: 50px;
     width: 50.83px;
-    background-image: url("Signup-images/console.svg");
+    background-image: url("Signup-section/images/console.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -135,7 +135,7 @@
 .kite-connect-img {
     height: 50px;
     width: 50px;
-    background-image: url("Signup-images/kite-connect.svg");
+    background-image: url("Signup-section/images/kite-connect.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -144,7 +144,7 @@
 .coin-img {
     height: 50px;
     width: 50.83px;
-    background-image: url("Signup-images/coin.svg");
+    background-image: url("Signup-section/images/coin.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -302,7 +302,7 @@ hr {
 .container1-img {
     height: 421px;
     width: 558px;
-    background-image: url("images/product-images/container-1.png");
+    background-image: url("Product-section/images/container-1.png");
     background-size: cover;
 }
 
@@ -356,7 +356,7 @@ hr {
 .android-img-cont1 {
     height: 45px;
     width: 151px;
-    background-image: url("images/product-images/google-play-badge.svg");
+    background-image: url("Product-section/images/google-play-badge.svg");
     background-size: cover;
 
 }
@@ -364,7 +364,7 @@ hr {
 .ios-img-cont1 {
     height: 45px;
     width: 135px;
-    background-image: url("images/product-images/appstore-badge.svg");
+    background-image: url("Product-section/images/appstore-badge.svg");
     background-size: cover;
 }
 
@@ -407,7 +407,7 @@ hr {
 .container2-img {
     height: 611px;
     width: 623px;
-    background-image: url("images/product-images/container-2.png");
+    background-image: url("Product-section/images/container-2.png");
     background-size: cover;
 }
 
@@ -430,7 +430,7 @@ hr {
 .container3-img {
     height: 387px;
     width: 564px;
-    background-image: url("images/product-images/container-3.png");
+    background-image: url("Product-section/images/container-3.png");
     background-size: cover;
 }
 
@@ -476,7 +476,7 @@ hr {
 .android-img-cont3 {
     height: 45px;
     width: 151px;
-    background-image: url("images/product-images/google-play-badge.svg");
+    background-image: url("Product-section/images/google-play-badge.svg");
     background-size: cover;
 
 }
@@ -484,7 +484,7 @@ hr {
 .ios-img-cont3 {
     height: 45px;
     width: 135px;
-    background-image: url("images/product-images/appstore-badge.svg");
+    background-image: url("Product-section/images/appstore-badge.svg");
     background-size: cover;
 }
 
@@ -527,7 +527,7 @@ hr {
 .container4-img {
     height: 611px;
     width: 623px;
-    background-image: url("images/product-images/container-4.png");
+    background-image: url("Product-section/images/container-4.png");
     background-size: cover;
 }
 
@@ -549,7 +549,7 @@ hr {
 .container5-img {
     height: 499px;
     width: 444px;
-    background-image: url("images/product-images/container-5.png");
+    background-image: url("Product-section/images/container-5.png");
     background-size: cover;
 }
 
@@ -581,7 +581,7 @@ hr {
 .android-img-cont5 {
     height: 45px;
     width: 151px;
-    background-image: url("images/product-images/google-play-badge.svg");
+    background-image: url("Product-section/images/google-play-badge.svg");
     background-size: cover;
 
 }
@@ -589,7 +589,7 @@ hr {
 .ios-img-cont5 {
     height: 45px;
     width: 135px;
-    background-image: url("images/product-images/appstore-badge.svg");
+    background-image: url("Product-section/images/appstore-badge.svg");
     background-size: cover;
 }
 

@@ -8,7 +8,7 @@
 .logo {
     height: 17px;
     width: 129px;
-    background-image: url("images/logo.svg");
+    background-image: url("About-section/images/logo.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -112,7 +112,7 @@
 .kite-img {
     height: 50px;
     width: 50px;
-    background-image: url("Signup-images/kite-logo.svg");
+    background-image: url("About-section/images/kite-logo.svg");
     background-size: cover;
     cursor: pointer;
 
@@ -121,7 +121,7 @@
 .console-img {
     height: 50px;
     width: 50.83px;
-    background-image: url("Signup-images/console.svg");
+    background-image: url("About-section/images/console.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -130,7 +130,7 @@
 .kite-connect-img {
     height: 50px;
     width: 50px;
-    background-image: url("Signup-images/kite-connect.svg");
+    background-image: url("About-section/images/kite-connect.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -139,7 +139,7 @@
 .coin-img {
     height: 50px;
     width: 50.83px;
-    background-image: url("Signup-images/coin.svg");
+    background-image: url("About-section/images/coin.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -359,7 +359,7 @@ hr {
 .ceo-img{
     height: 295px;
     width: 295px;
-    background-image: url("About-images/img-1.jpg");
+    background-image: url("About-section/images/img-1.jpg");
     background-size: cover;
     border-radius: 50%;
 }

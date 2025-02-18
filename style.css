@@ -8,7 +8,7 @@
 .logo {
     height: 17px;
     width: 129px;
-    background-image: url("images/logo.svg");
+    background-image: url("Home-images/logo.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -121,7 +121,7 @@
 .kite-img {
     height: 50px;
     width: 50px;
-    background-image: url("images/kite.svg");
+    background-image: url("Home-images/kite.svg");
     background-size: cover;
 
 }
@@ -129,7 +129,7 @@
 .console-img {
     height: 50px;
     width: 50.83px;
-    background-image: url("images/console.svg");
+    background-image: url("Home-images/console.svg");
     background-size: cover;
 }
 
@@ -137,7 +137,7 @@
 .kite-connect-img {
     height: 50px;
     width: 50px;
-    background-image: url("images/kite-connect.svg");
+    background-image: url("Home-images//kite-connect.svg");
     background-size: cover;
 }
 
@@ -145,7 +145,7 @@
 .coin-img {
     height: 50px;
     width: 50.83px;
-    background-image: url("images/coin.svg");
+    background-image: url("Home-images/coin.svg");
     background-size: cover;
 }
 
@@ -265,7 +265,7 @@ hr {
 .img {
     height: 20.5rem;
     width: 48.7rem;
-    background-image: url("images/hero-img.png");
+    background-image: url("Home-images/hero-img.png");
     background-size: cover;
     margin-bottom: 3.75rem;
 }
@@ -315,7 +315,7 @@ hr {
 .img-container-2 {
     height: 38.2rem;
     width: 39rem;
-    background-image: url("images/containe-2-img.png");
+    background-image: url("Home-images/containe-2-img.png");
     background-size: cover;
     cursor: pointer;
 }
@@ -385,7 +385,7 @@ span:hover {
 .press-img {
     height: 40px;
     width: 710px;
-    background-image: url("images/press-logos.png");
+    background-image: url("Home-images/press-logos.png");
     background-size: cover;
     cursor: pointer;
 }
@@ -422,14 +422,14 @@ span:hover {
 .container3-img1 {
     height: 97px;
     width: 120px;
-    background-image: url("Signup-images/0.svg");
+    background-image: url("Signup-section/images/0.svg");
     background-size: cover;
 }
 
 .container3-img2 {
     height: 97px;
     width: 120px;
-    background-image: url("Signup-images/0.svg");
+    background-image: url("Signup-section/images/0.svg");
     background-size: cover;
 }
 
@@ -437,7 +437,7 @@ span:hover {
 .container3-img3 {
     height: 97px;
     width: 120px;
-    background-image: url("Signup-images/20.svg");
+    background-image: url("Signup-section/images/20.svg");
     background-size: cover;
 }
 
@@ -484,7 +484,7 @@ span:hover {
 .img-container4 {
     height: 317px;
     width: 432px;
-    background-image: url("images/container4.svg");
+    background-image: url("Home-images/container4.svg");
     background-size: cover;
     cursor: pointer;
 }

@@ -8,7 +8,7 @@
 .logo {
     height: 17px;
     width: 129px;
-    background-image: url("Signup-images/logo.svg");
+    background-image: url("Signup-section/images/logo.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -111,7 +111,7 @@
 .kite-img {
     height: 50px;
     width: 50px;
-    background-image: url("Signup-images/kite-logo.svg");
+    background-image: url("Signup-section/images/kite-logo.svg");
     background-size: cover;
     cursor: pointer;
 
@@ -120,7 +120,7 @@
 .console-img {
     height: 50px;
     width: 50.83px;
-    background-image: url("Signup-images/console.svg");
+    background-image: url("Signup-section/images/console.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -129,7 +129,7 @@
 .kite-connect-img {
     height: 50px;
     width: 50px;
-    background-image: url("Signup-images/kite-connect.svg");
+    background-image: url("Signup-section/images/kite-connect.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -138,7 +138,7 @@
 .coin-img {
     height: 50px;
     width: 50.83px;
-    background-image: url("Signup-images/coin.svg");
+    background-image: url("Signup-section/images/coin.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -284,7 +284,7 @@ hr {
 .container2-landingpage {
     height: 328.5px;
     width: 471.5px;
-    background-image: url("Signup-images/landing.svg");
+    background-image: url("Signup-section/images/landing.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -421,7 +421,7 @@ hr {
 .card1-img {
     height: 84.5px;
     width: 112px;
-    background-image: url("Signup-images/stock.svg");
+    background-image: url("Signup-section/images/stock.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -429,7 +429,7 @@ hr {
 .card2-img {
     height: 66.66px;
     width: 112px;
-    background-image: url("Signup-images/mutual-funds.svg");
+    background-image: url("Signup-section/images/mutual-funds.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -437,7 +437,7 @@ hr {
 .card3-img {
     height: 74.8px;
     width: 112px;
-    background-image: url("Signup-images/ipo.svg");
+    background-image: url("Signup-section/images/ipo.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -445,7 +445,7 @@ hr {
 .card4-img {
     height: 111.99px;
     width: 120px;
-    background-image: url("Signup-images/option.svg");
+    background-image: url("Signup-section/images/option.svg");
     cursor: pointer;
 }
 
@@ -524,7 +524,7 @@ hr {
 .container4-img {
     height: 202px;
     width: 365px;
-    background-image: url("Signup-images/container4-landing.svg");
+    background-image: url("Signup-section/images/container4-landing.svg");
     background-size: cover;
     cursor: pointer;
 }
@@ -589,7 +589,7 @@ hr {
 .container5-img {
     height: 272px;
     width: 448px;
-    background-image: url("Signup-images/container5-landing.svg");
+    background-image: url("Signup-section/images/container5-landing.svg");
     background-size: cover;
     cursor: pointer;
     padding: 0px 20px;
